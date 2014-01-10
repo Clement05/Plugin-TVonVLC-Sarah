@@ -1,0 +1,12 @@
+{
+  "modules": { 
+    "TVonVLC": {
+      "description": "SARAH Plugin TVonVLC",
+      "version": "0.2",
+	  "CheminClient": "",
+	  "Host":"",
+	  "Port":"",
+      "Lien liste de lecture": ""
+    }
+  }
+}
