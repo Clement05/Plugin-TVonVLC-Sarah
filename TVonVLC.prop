@@ -1,12 +1,14 @@
 {
   "modules": { 
     "TVonVLC": {
-      "description": "SARAH Plugin TVonVLC",
-      "version": "0.2",
+      "description": "SARAH Plugin VLC",
+      "version": "1.0",
+	  "Chemin_VLC": "",
 	  "CheminClient": "",
 	  "Host":"",
 	  "Port":"",
-      "Lien liste de lecture": ""
+      "m3u": "",
+	  "Vol"
     }
   }
 }
