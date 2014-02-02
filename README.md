@@ -44,7 +44,28 @@ on top of:
 8. Indiquer le lien de la liste de lecture TV (ex: http://www.m3u.fr/orangetv.m3u) Par défaut le plugin est développé et marche pour Orange. Il et non testé pur les autres fournisseurs d'accès
 9. Vol est à laisser vide. Cette propriété est utilisée pour sauvegarder le niveau du volume
 
-## Liens utils
+## Liste des commances
+
+SARAH +
+            Lance VLC
+            lance la télé sur VLC
+            VLC passe en plein écran
+	VLC sort du plein écran
+	VLC lecture
+	VLC pause
+	VLC stop
+	VLC suivant
+	VLC précédent
+	VLC baisser le volume
+	VLC monter le volume
+	VLC volume au minimum
+	VLC volume au maximum
+	VLC couper le volume
+	VLC remettre le volume
+	VLC volume intermédiare
+            VLC zappe sur + <Chaine TV>
+
+## Liens utiles
 
 http://blog.manuelciosici.com/2009/02/05/tutorial-how-to-set-up-remote-http-control-interface-for-vlc-player/
 http://www.autohotkey.com/board/topic/61757-vlc-http-command-list-and-quick-demo/
