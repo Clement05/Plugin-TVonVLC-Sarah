@@ -44,7 +44,7 @@ on top of:
 8. Indiquer le lien de la liste de lecture TV (ex: http://www.m3u.fr/orangetv.m3u) Par défaut le plugin est développé et marche pour Orange. Il et non testé pur les autres fournisseurs d'accès
 9. Vol est à laisser vide. Cette propriété est utilisée pour sauvegarder le niveau du volume
 
-## Liens utiles
+## Liens utils
 
 http://blog.manuelciosici.com/2009/02/05/tutorial-how-to-set-up-remote-http-control-interface-for-vlc-player/
 http://www.autohotkey.com/board/topic/61757-vlc-http-command-list-and-quick-demo/
