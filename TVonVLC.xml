@@ -8,21 +8,21 @@
     <one-of>
       <item>Lance VLC<tag>out.action.test="0"</tag></item>
 	  <item>VLC</item>
-	  <item>lance la télé sur VLC<tag>out.action.test="1"</tag></item>
-      <item>VLC passe en plein écran<tag>out.action.test="2"</tag></item>
-	  <item>VLC sort du plein écran<tag>out.action.test="3"</tag></item>
+	  <item>lance la tï¿½lï¿½ sur VLC<tag>out.action.test="1"</tag></item>
+      <item>VLC passe en plein ï¿½cran<tag>out.action.test="2"</tag></item>
+	  <item>VLC sort du plein ï¿½cran<tag>out.action.test="3"</tag></item>
 	  <item>VLC lecture<tag>out.action.test="4"</tag></item>
 	  <item>VLC pause<tag>out.action.test="5"</tag></item>
 	  <item>VLC stop<tag>out.action.test="6"</tag></item>
 	  <item>VLC suivant<tag>out.action.test="7"</tag></item>
-	  <item>VLC précédent<tag>out.action.test="8"</tag></item>
+	  <item>VLC prï¿½cï¿½dent<tag>out.action.test="8"</tag></item>
 	  <item>VLC baisser le volume<tag>out.action.test="9"</tag></item>
 	  <item>VLC monnter le volume<tag>out.action.test="10"</tag></item>
 	  <item>VLC volume au minimum<tag>out.action.test="11"</tag></item>
 	  <item>VLC volume au maximum<tag>out.action.test="12"</tag></item>
 	  <item>VLC couper le volume<tag>out.action.test="13"</tag></item>
 	  <item>VLC remettre le volume<tag>out.action.test="14"</tag></item>
-	  <item>VLC volume intermédiare<tag>out.action.test="15"</tag></item>
+	  <item>VLC volume intermï¿½diare<tag>out.action.test="15"</tag></item>
 	  <item>VLC zappe sur</item>
     </one-of>
 	    <item repeat="0-1">
@@ -43,17 +43,17 @@
            <item>La Chaine Parlementaire<tag>out.action.test="26"</tag></item>
 		   <item>France 4			<tag>out.action.test="27"</tag></item>
 		   <item>BFM TV				<tag>out.action.test="28"</tag></item>
-		   <item>I-Télé				<tag>out.action.test="29"</tag></item>
+		   <item>I-Tï¿½lï¿½				<tag>out.action.test="29"</tag></item>
 		   <item>D17				<tag>out.action.test="30"</tag></item>
 		   <item>Gulli				<tag>out.action.test="31"</tag></item>
 		   <item>France O			<tag>out.action.test="32"</tag></item>
            <item>HD1				<tag>out.action.test="33"</tag></item>
 		   <item>6 ter				<tag>out.action.test="34"</tag></item>
-		   <item>Numéro 23			<tag>out.action.test="35"</tag></item>
+		   <item>Numï¿½ro 23			<tag>out.action.test="35"</tag></item>
 		   
           </one-of>
     </item>	
 
-    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/TVonVLC";</tag>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/SARAH-Plugin-TVonVLC";</tag>
   </rule> 
 </grammar>
