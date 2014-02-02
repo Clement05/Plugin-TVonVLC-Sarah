@@ -63,7 +63,7 @@ SARAH +
 	VLC couper le volume
 	VLC remettre le volume
 	VLC volume intermédiare
-            VLC zappe sur + <Chaine TV>
+            VLC zappe sur + Chaine TV
 
 ## Liens utiles
 
