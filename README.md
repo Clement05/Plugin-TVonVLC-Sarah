@@ -37,7 +37,7 @@ on top of:
 1. Télécharger et décompresser l'archive dans le répertoire plugins de S.A.R.A.H.
 2. Rendez-vous sur la page de configuration de S.A.R.A.H. (http://127.0.0.1:8080/home)
 3. Cliquer sur l'icône de configuration du plugin-in (icone VC)
-4. Configuer le chemin de VLC (ex: http://127.0.0.1:8080/home)
+4. Configuer le chemin de VLC (C:/Program Files (x86)/VideoLAN/VLC/)
 5. Indiquer le chemin du client VLC (ex: C:\sarah\plugins\TVonVLC)
 6. Indiquer l'adresse du serveur HTTP de VLC (ex: 127.0.0.1) | ce paramètre de config est obselete
 7. Indiquer le port d'écoute de VLC (ex: 8001) /!\ Il est impératif de changer ce port, car par défaut VLC utilsie le même port que S.A.R.A.H. ce qui entraîne un conflit
