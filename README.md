@@ -47,22 +47,22 @@ on top of:
 ## Liste des commances
 
 SARAH +
-            Lance VLC
-            lance la télé sur VLC
-            VLC passe en plein écran
-	VLC sort du plein écran
-	VLC lecture
-	VLC pause
-	VLC stop
-	VLC suivant
-	VLC précédent
-	VLC baisser le volume
-	VLC monter le volume
-	VLC volume au minimum
-	VLC volume au maximum
-	VLC couper le volume
-	VLC remettre le volume
-	VLC volume intermédiare
+            Lance VLC,
+            lance la télé sur VLC,
+            VLC passe en plein écran,
+	VLC sort du plein écran,
+	VLC lecture,
+	VLC pause,
+	VLC stop,
+	VLC suivant,
+	VLC précédent,
+	VLC baisser le volume,
+	VLC monter le volume,
+	VLC volume au minimum,
+	VLC volume au maximum,
+	VLC couper le volume,
+	VLC remettre le volume,
+	VLC volume intermédiare,
             VLC zappe sur + Chaine TV
 
 ## Liens utiles
