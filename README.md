@@ -34,8 +34,27 @@ on top of:
 
 ## Description
 
-A tutorial plugin. 
-See http://encausse.net/2013/05/02/sarah-mon-premier-module/
+1. Télécharger et décompresser l'archive dans le répertoire plugins de S.A.R.A.H.
+2. Rendez-vous sur la page de configuration de S.A.R.A.H. (http://127.0.0.1:8080/home)
+3. Cliquer sur l'icône de configuration du plugin-in (icone VC)
+4. Configuer le chemin de VLC (ex: http://127.0.0.1:8080/home)
+5. Indiquer le chemin du client VLC (ex: C:\sarah\plugins\TVonVLC)
+6. Indiquer l'adresse du serveur HTTP de VLC (ex: 127.0.0.1) | ce paramètre de config est obselete
+7. Indiquer le port d'écoute de VLC (ex: 8001) /!\ Il est impératif de changer ce port, car par défaut VLC utilsie le même port que S.A.R.A.H. ce qui entraîne un conflit
+8. Indiquer le lien de la liste de lecture TV (ex: http://www.m3u.fr/orangetv.m3u) Par défaut le plugin est développé et marche pour Orange. Il et non testé pur les autres fournisseurs d'accès
+9. Vol est à laisser vide. Cette propriété est utilisée pour sauvegarder le niveau du volume
+
+## Liens utiles
+
+http://blog.manuelciosici.com/2009/02/05/tutorial-how-to-set-up-remote-http-control-interface-for-vlc-player/
+http://www.autohotkey.com/board/topic/61757-vlc-http-command-list-and-quick-demo/
+http://jermolene.wordpress.com/2009/07/08/hacking-vlc-media-player/
+http://leshirondellesdunet.com/pages/vlc.php
+
+https://github.com/ampache/ampache/blob/master/modules/vlc/vlcplayer.class.php
+https://github.com/videolan/vlc/tree/master/share/lua/http/requests
+
+http://leslivresoublies.free.fr/leslivresoublies/VLC/Ligne/Les_interfaces_principales.html
 
 
 ## Quick Start
