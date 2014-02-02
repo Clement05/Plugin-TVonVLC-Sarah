@@ -23,7 +23,7 @@ var url10 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?
 var url11 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=0";
 var url12 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=512";
 var url13 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=0";
-var url14 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=";
+var url14 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=" config.Vol;
 var url15 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=volume&val=264";
 var url16 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=10";
 var url17 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=13";
@@ -33,7 +33,7 @@ var url20 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?
 var url21 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=21";
 var url22 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=26";
 var url36 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=28";
-var url23 = "http://" + conf	ig.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=30";
+var url23 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=30";
 var url24 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=33";
 var url25 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=34";
 var url37 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?command=pl_play&id=35";
@@ -201,7 +201,7 @@ var url35 = "http://" + config.Host + ":" + config.Port + "/requests/status.xml?
 	  var xml2js = require('xml2js');
         var parser = new xml2js.Parser({trim: true});
         parser.parseString(body, function (err, xml) {
-		  //config.Vol = xml.root.volume[0];
+		  config.Vol = xml.root.volume[0];
         });
 		}
 	callback({'tts' : 'avec plaisir'});
@@ -219,7 +219,7 @@ var sendURL = function(url, callback, cb){
     
     if (err || response.statusCode != 200) {
 	console.log(err);
-      callback({'tts': "L'action a échoué"});
+      callback({'tts': "L'action a ï¿½chouï¿½"});
       return;
     }
 
