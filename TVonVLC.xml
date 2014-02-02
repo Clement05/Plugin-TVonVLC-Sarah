@@ -54,6 +54,6 @@
           </one-of>
     </item>	
 
-    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/SARAH-Plugin-TVonVLC";</tag>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/SARAH-Plugin-TVonVLC-1.0";</tag>
   </rule> 
 </grammar>
